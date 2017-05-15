@@ -29,9 +29,9 @@ class Projects extends React.Component {
               <h3>{project.tags}</h3>
               <h2>{project.title}</h2>
               <p>{project.description}</p>
-              <a href={project.link} className="button small">VISIT</a>
+              <a href={project.link} className="button small">VISITAR</a>
               {project.caseStudy !== false &&
-                <a href={projects.caseStudy} className="button small">CASE STUDY</a>
+                <a href={projects.caseStudy} className="button small">ESTUDO DE CASO</a>
               }
             </div>
 

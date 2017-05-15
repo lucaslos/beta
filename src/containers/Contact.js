@@ -32,14 +32,14 @@ class Contact extends React.Component {
     return (
       <section id="contact">
         <div className={`logo ${isOpenContactForm ? 'hide-bg' : ''}`} data-anim="1" />
-        <h1 className="section-title" data-anim="1">CONTACT</h1>
+        <h1 className="section-title" data-anim="1">CONTATO</h1>
         <article className={`contact-container ${isOpenContactForm ? 'hide-bg' : ''}`}>
-          <h2 data-anim="2">Get in touch with me!</h2>
-          <a href="mailto:contact@lucassantos.net" className="button big email" data-anim="3">{ this.constructor.emailSvgIcon() }hello@lucassantos.net</a>
-          <a className="button big message" id="shared-button" data-anim="4" onClick={this.openContactForm}>{ this.constructor.messageSvgIcon() }Drop me a line</a>
+          <h2 data-anim="2">Entre em contato comigo!</h2>
+          <a href="mailto:lucas@sugestly.com" className="button big email" data-anim="3">{ this.constructor.emailSvgIcon() }lucas@sugestly.com</a>
+          <a className="button big message" id="shared-button" data-anim="4" onClick={this.openContactForm}>{ this.constructor.messageSvgIcon() }Envie uma mensagem</a>
           <SocialLinks />
           {/* FIXME: Ztranslate at end of scroll bug, value is not zero*/}
-          <a href="https://github.com/code-kotis/react-floating-label" className="github-project-link" data-anim="6">This project is open source on GitHub.</a>
+          <a href="https://github.com/code-kotis/react-floating-label" className="github-project-link" data-anim="6">Este projeto está no GitHub!</a>
         </article>
         <ContactForm />
       </section>

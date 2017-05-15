@@ -13,7 +13,7 @@ class Skills extends React.Component {
 
     return (
       <div className="my-skills" data-anim="3">
-        <h2>My skills</h2>
+        <h2>Competências</h2>
         {skills.map((skill, index) =>
           <div className="tag" key={index}>{skill}</div>
         )}

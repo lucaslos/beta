@@ -64,10 +64,10 @@ class Menu extends React.Component {
         </div>
 
         <ul>
-          <li><a href="#start" onClick={() => this.onClickSectionLink(0)}><span className={activeSection === 0 ? 'active' : ''}>Start</span></a></li>
-          <li><a href="#about-me" onClick={() => this.onClickSectionLink(1)}><span className={activeSection === 1 ? 'active' : ''}>About me</span></a></li>
-          <li><a href="#works" onClick={() => this.onClickSectionLink(2)}><span className={activeSection === 2 ? 'active' : ''}>Works</span></a></li>
-          <li><a href="#contact" onClick={() => this.onClickSectionLink(3)}><span className={activeSection === 3 ? 'active' : ''}>Contact</span></a></li>
+          <li><a href="#start" onClick={() => this.onClickSectionLink(0)}><span className={activeSection === 0 ? 'active' : ''}>Início</span></a></li>
+          <li><a href="#about-me" onClick={() => this.onClickSectionLink(1)}><span className={activeSection === 1 ? 'active' : ''}>Sobre Mim</span></a></li>
+          <li><a href="#works" onClick={() => this.onClickSectionLink(2)}><span className={activeSection === 2 ? 'active' : ''}>Projetos</span></a></li>
+          <li><a href="#contact" onClick={() => this.onClickSectionLink(3)}><span className={activeSection === 3 ? 'active' : ''}>Contato</span></a></li>
         </ul>
 
         <LangSwitcher />

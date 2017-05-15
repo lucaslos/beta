@@ -23,7 +23,7 @@ class ProjectsNav extends React.Component {
             <div className="inner"><span>{project.title}</span></div>
           </div>
         )}
-        <div className="nav-item" onClick={() => spaceScroll.scrollToSection(3)}><div className="inner"><span>Add your project here!</span></div></div>
+        <div className="nav-item" onClick={() => spaceScroll.scrollToSection(3)}><div className="inner"><span>Adicione seu projeto aqui!</span></div></div>
       </nav>
     );
   }

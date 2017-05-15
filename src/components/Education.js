@@ -13,7 +13,7 @@ class Education extends React.Component {
 
     return (
       <div className="education" data-anim="4">
-        <h2>Education</h2>
+        <h2>Formação</h2>
         {education.map((education, index) =>
           <div key={index} className="item">
             <h3>{education.course}</h3>

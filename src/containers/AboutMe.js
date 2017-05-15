@@ -17,7 +17,7 @@ class AboutMe extends React.Component {
     return (
       <section id="about-me">
         <div className="logo" data-anim="1" />
-        <h1 className="section-title" data-anim="1">ABOUT ME</h1>
+        <h1 className="section-title" data-anim="1">SOBRE MIM</h1>
 
         <article>
           <p className="bio" data-anim="2" dangerouslySetInnerHTML={{ __html: bio }} />

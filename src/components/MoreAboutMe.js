@@ -13,7 +13,7 @@ class MoreAboutMe extends React.Component {
 
     return (
       <ul className="social" data-anim="5">
-        <h2>+ About me</h2>
+        <h2>+ Sobre Mim</h2>
         {moreAboutMe.map((item, index) =>
           <a key={index} href={item.link} className="button small">{item.label}</a>
         )}

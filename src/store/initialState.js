@@ -1,40 +1,35 @@
 const initialState = {
   // Global
-  language: 'en',
+  language: 'pt',
   // 0: home, 1: about me, 2: works, 3: contact
   spaceScroll: {
     activeSection: 0,
   },
 
   // About Me
-  bio: 'Meu nome é <span>Lucas Santos</span>. Sou um UI/UX designer, desenvolvedor front-end de 20 anos, moro atualmente em São Paulo-SP e estou cursando o primeiro ano de graduação do curso de design. Busco sempre encontrar as soluções mais eficientes e criativas em meus projetos, usando o que há de mais avançado em técnicas e tecnologia e focando sempre em oferecer uma experiência única de uso para o usuário.',
+  bio: 'Meu nome é <span>Lucas Santos</span>. Sou um UI/UX designer, desenvolvedor front-end de 21 anos, moro atualmente em São Paulo-SP e estou cursando o segundo ano de graduação do curso de design. Busco sempre encontrar as soluções mais eficientes e criativas em meus projetos, usando o que há de mais avançado em técnicas e tecnologia e focando sempre em oferecer uma experiência única de uso para o usuário.',
   skills: [
     'UI/UX',
     'Javascript',
-    'Photoshop',
-    'Blender',
-    'Illustrator',
     'Front-end',
     '3D graphics',
+    'Back-end',
+    'Motion Desing',
   ],
   education: [
     {
-      course: 'DESIGN GRADUATION',
+      course: 'FACULDADE DE DESIGN',
       institution: 'FAU USP (2016-Currently)',
     },
     {
-      course: 'TECHNIC WEB DEVELOPMENT',
+      course: 'TÉCNICO EM DESENVOVIMENTO WEB',
       institution: 'Etec Dr. Demétrio Azevedo Júnior (2012-2013)',
     },
   ],
   moreAboutMe: [
     {
-      label: 'Twitter',
-      link: '#',
-    },
-    {
       label: 'LinkedIn',
-      link: '#',
+      link: 'https://www.linkedin.com/in/lucasols/',
     },
   ],
 
@@ -44,7 +39,7 @@ const initialState = {
     data: [
       {
         backgroundImage: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e7e52f34354519.56cda6dd50bd5.jpg',
-        tags: 'VISUAL IDENTITY / BRAND',
+        tags: 'VISUAL IDENTITY / BRAND / DEMONSTRAÇÃO',
         title: 'Personal identity',
         description: 'Built entirely on web technology, attendees used a mobile device to throw a plane over WebSockets where it was rendered in WebGL on the 50-ft screen on stage.',
         link: '#',
@@ -52,7 +47,7 @@ const initialState = {
       },
       {
         backgroundImage: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/71ff2733110059.56b61eb65cc80.jpg',
-        tags: 'UX/UI / JAVASCRIPT / VISUAL IDENTITY / BRAND',
+        tags: 'UX/UI / JAVASCRIPT / VISUAL IDENTITY / BRAND / DEMONSTRAÇÃO',
         title: 'Suggestly',
         description: 'Built entirely on web technology, attendees used a mobile device to throw a plane over WebSockets where it was rendered in WebGL on the 50-ft screen on stage.',
         link: '#',
@@ -60,7 +55,7 @@ const initialState = {
       },
       {
         backgroundImage: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/61811234354519.56cda6dd5612e.jpg',
-        tags: 'UI DESIGN / BRAND',
+        tags: 'UI DESIGN / BRAND / DEMONSTRAÇÃO',
         title: 'SRS App',
         description: 'Built entirely on web technology, attendees used a mobile device to throw a plane over WebSockets where it was rendered in WebGL on the 50-ft screen on stage.',
         link: '#',
