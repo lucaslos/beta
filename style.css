@@ -1,0 +1,1354 @@
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+/* Document
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\0000313}}
+html {
+  font-family: "Open Sans", sans-serif;
+  /* 1 */
+  line-height: 1.15;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */ }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\0000320}}
+* {
+  margin: 0;
+  padding: 0; }
+
+/* set default sizing-box */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\0000326}}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\0000339}}
+body {
+  margin: 0; }
+
+/**
+ * Add the correct display in IE 9-.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\0000347}}
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\0000361}}
+h1 {
+  font-size: 2em;
+  margin: 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\0000374}}
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block; }
+
+/**
+ * Add the correct margin in IE 8.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\0000384}}
+figure {
+  margin: 1em 40px; }
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\0000393}}
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003104}}
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003117}}
+a {
+  text-decoration: none;
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003129}}
+a:active,
+a:hover {
+  outline-width: 0; }
+
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003139}}
+abbr[title] {
+  border-bottom: 0;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003149}}
+b,
+strong {
+  font-weight: inherit; }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003158}}
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003168}}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003179}}
+dfn {
+  font-style: italic; }
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003187}}
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003196}}
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003205}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003213}}
+sub {
+  bottom: -.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003217}}
+sup {
+  top: -.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003228}}
+audio,
+video {
+  display: inline-block; }
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003237}}
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003246}}
+img {
+  border-style: none; }
+
+/**
+ * Hide the overflow in IE.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003254}}
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/**
+ * Remove input autocomplete bg color
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003269}}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:active {
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #fff !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003281}}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  border: 0;
+  outline: none; }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003299}}
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003309}}
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003320}}
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */ }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003331}}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003343}}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003354}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003367}}
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003381}}
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003390}}
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003399}}
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003409}}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003419}}
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003428}}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003438}}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003451}}
+details,
+menu {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003460}}
+summary {
+  display: list-item; }
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003471}}
+canvas {
+  display: inline-block; }
+
+/**
+ * Add the correct display in IE.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003479}}
+template {
+  display: none; }
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003490}}
+[hidden] {
+  display: none; }
+
+/* Extra style
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_normalize\.scss}line{font-family:\00003497}}
+li {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_general\.scss}line{font-family:\000033}}
+body {
+  background-color: #000e1a; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_general\.scss}line{font-family:\000037}}
+body,
+#app {
+  position: absolute;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_general\.scss}line{font-family:\0000315}}
+#app > div {
+  height: 100%;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_general\.scss}line{font-family:\0000321}}
+.page-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_general\.scss}line{font-family:\0000329}}
+#scroll-handler {
+  position: relative;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_general\.scss}line{font-family:\0000335}}
+section {
+  position: absolute;
+  top: 10px;
+  right: 4px;
+  bottom: 10px;
+  left: 10px;
+  display: none;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  -webkit-perspective: 600;
+          perspective: 600; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_general\.scss}line{font-family:\0000348}}
+.background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_general\.scss}line{font-family:\0000359}}
+.section-title {
+  width: 210px;
+  left: 50%;
+  margin-left: -105px;
+  position: absolute;
+  top: 80px;
+  color: #3dd5fc;
+  font-family: "Josefin Sans";
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 70%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_general\.scss}line{font-family:\0000373}}
+.logo {
+  position: absolute;
+  top: 12px;
+  left: 11px;
+  height: 50px;
+  width: 50px;
+  background-image: url("images/logo.svg");
+  background-position: center;
+  background-size: auto 32px;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 14, 26, 0.8);
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/base\/_general\.scss}line{font-family:\0000391}}
+  .logo:hover {
+    background-color: #001e30; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_home\.scss}line{font-family:\000032}}
+#home article {
+  position: relative;
+  top: 50%;
+  width: 860px;
+  left: 50%;
+  margin-left: -430px;
+  height: 300px;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_home\.scss}line{font-family:\0000311}}
+  #home article .logotype {
+    width: 100%;
+    height: 140px;
+    margin-top: -80px;
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    font-size: 94px;
+    line-height: 140px;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_home\.scss}line{font-family:\0000326}}
+  #home article .mark {
+    float: left;
+    height: 140px;
+    width: 90px;
+    margin-right: 27px;
+    background: url(images/logo.svg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_home\.scss}line{font-family:\0000335}}
+  #home article > p {
+    float: left;
+    margin: -4px 0 0 280px;
+    color: #9be6fd;
+    font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_home\.scss}line{font-family:\0000343}}
+  #home article ul {
+    display: inline-block;
+    height: 50px;
+    margin-top: 76px;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_home\.scss}line{font-family:\0000350}}
+    #home article ul li {
+      display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_home\.scss}line{font-family:\0000353}}
+      #home article ul li .button:hover {
+        background-color: #3dd5fc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_home\.scss}line{font-family:\0000358}}
+    #home article ul li:nth-child(2) {
+      margin: 0 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_home\.scss}line{font-family:\0000364}}
+#home .lang-switcher {
+  position: absolute;
+  right: 6%;
+  bottom: 6%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_about-me\.scss}line{font-family:\000031}}
+#about-me article {
+  position: relative;
+  top: 170px;
+  width: 626px;
+  left: 50%;
+  margin-left: -313px;
+  font-family: "Source Sans Pro"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_about-me\.scss}line{font-family:\000039}}
+  #about-me article > * {
+    background-color: rgba(0, 14, 26, 0.8); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_about-me\.scss}line{font-family:\0000313}}
+  #about-me article > p {
+    margin-bottom: 40px;
+    color: #d9f5fe;
+    font-size: 20px;
+    line-height: 1.5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_about-me\.scss}line{font-family:\0000320}}
+    #about-me article > p span {
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_about-me\.scss}line{font-family:\0000325}}
+  #about-me article .my-skills,
+  #about-me article .education {
+    float: left;
+    width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_about-me\.scss}line{font-family:\0000331}}
+  #about-me article .my-skills {
+    padding-bottom: 14px;
+    padding-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_about-me\.scss}line{font-family:\0000336}}
+  #about-me article .social {
+    float: left;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_about-me\.scss}line{font-family:\0000340}}
+    #about-me article .social a {
+      margin-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_about-me\.scss}line{font-family:\0000345}}
+  #about-me article h2 {
+    margin-bottom: 14px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_works\.scss}line{font-family:\000031}}
+#works article {
+  position: absolute;
+  top: 134px;
+  left: 4%;
+  right: 4%;
+  bottom: calc(8% - 6px);
+  padding: 6px 4%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_works\.scss}line{font-family:\0000310}}
+  #works article .projects-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow-x: visible; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_works\.scss}line{font-family:\0000318}}
+  #works article > nav {
+    height: 168px;
+    top: 50%;
+    margin-top: -84px;
+    position: absolute;
+    right: 2%;
+    width: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_contact\.scss}line{font-family:\000031}}
+.contact-container {
+  width: 720px;
+  left: 50%;
+  margin-left: -360px;
+  position: absolute;
+  top: 258px;
+  bottom: 0;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_contact\.scss}line{font-family:\0000310}}
+  .contact-container h2 {
+    margin-bottom: 62px;
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 62px;
+    font-weight: 300;
+    line-height: .75; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_contact\.scss}line{font-family:\0000320}}
+  .contact-container .button {
+    display: inline-block;
+    float: none;
+    padding-left: 74px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_contact\.scss}line{font-family:\0000325}}
+    .contact-container .button svg {
+      height: 24px;
+      top: 50%;
+      margin-top: -12px;
+      position: absolute;
+      left: 30px;
+      fill: #9be6fd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_contact\.scss}line{font-family:\0000335}}
+  .contact-container .email {
+    margin-right: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_contact\.scss}line{font-family:\0000339}}
+  .contact-container ul {
+    display: inline-block;
+    clear: both;
+    margin-top: 58px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/sections\/_contact\.scss}line{font-family:\0000348}}
+.github-project-link {
+  width: 270px;
+  left: 50%;
+  margin-left: -135px;
+  position: absolute;
+  bottom: 6%;
+  font-size: 14px;
+  color: #9be6fd;
+  text-align: center;
+  background-color: rgba(0, 14, 26, 0.6); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_buttons\.scss}line{font-family:\000031}}
+.button {
+  float: left;
+  height: 50px;
+  padding: 0 30px;
+  color: #9be6fd;
+  font-size: 22px;
+  font-family: "Open Sans";
+  line-height: 49px;
+  background-color: rgba(0, 30, 48, 0.8);
+  border-radius: 2px;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_buttons\.scss}line{font-family:\0000316}}
+  .button,
+  .button svg {
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_buttons\.scss}line{font-family:\0000321}}
+  .button:hover {
+    background-color: #6fe0fd !important;
+    color: #000e1a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_buttons\.scss}line{font-family:\0000326}}
+    .button:hover svg {
+      fill: #000e1a !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_buttons\.scss}line{font-family:\0000331}}
+  .button:active {
+    background-color: #006a85; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_buttons\.scss}line{font-family:\0000335}}
+  .button.small {
+    height: 42px;
+    padding: 0 20px;
+    font-size: 18px;
+    line-height: 42px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_buttons\.scss}line{font-family:\0000343}}
+  .button.big {
+    height: 64px;
+    font-size: 24px;
+    line-height: 62px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_lang-switcher\.scss}line{font-family:\000031}}
+.lang-switcher {
+  width: 82px;
+  height: 28px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  background-color: #000e1a;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_lang-switcher\.scss}line{font-family:\0000312}}
+  .lang-switcher * {
+    position: relative;
+    display: inline-block;
+    padding: 0 5px;
+    color: #186782;
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_lang-switcher\.scss}line{font-family:\0000323}}
+  .lang-switcher span {
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_lang-switcher\.scss}line{font-family:\0000327}}
+  .lang-switcher .active {
+    color: #3dd5fc; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_lang-switcher\.scss}line{font-family:\0000332}}
+#menu .lang-switcher {
+  background-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_skills\.scss}line{font-family:\000032}}
+.my-skills .tag {
+  float: left;
+  height: 32px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 0 12px;
+  color: #9be6fd;
+  line-height: 30px;
+  font-size: 18px;
+  background-color: #000e1a;
+  border: solid 1px #9be6fd;
+  border-radius: 2px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_education\.scss}line{font-family:\000031}}
+.education {
+  color: #9be6fd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_education\.scss}line{font-family:\000034}}
+  .education .item {
+    margin-bottom: 20px;
+    font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_education\.scss}line{font-family:\000039}}
+    .education .item:first-of-type {
+      margin-top: -4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_education\.scss}line{font-family:\0000313}}
+    .education .item:last-of-type {
+      margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_education\.scss}line{font-family:\0000317}}
+    .education .item h3 {
+      margin-bottom: 6px;
+      font-size: 18px;
+      font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_education\.scss}line{font-family:\0000324}}
+    .education .item p {
+      font-weight: 300;
+      line-height: 1.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\000033}}
+.projects-wrapper {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\000037}}
+.projects-wrapper > div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 6px;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\0000316}}
+  .projects-wrapper > div.active {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\0000321}}
+  .projects-wrapper > div.front {
+    -webkit-transform: translate3d(0, 0, 600px);
+            transform: translate3d(0, 0, 600px);
+    opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\0000326}}
+  .projects-wrapper > div.back {
+    -webkit-transform: translate3d(0, 0, -600px);
+            transform: translate3d(0, 0, -600px);
+    opacity: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\0000332}}
+.project-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #3dd5fc;
+  background-position: center center;
+  background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\0000343}}
+.next-slide-button,
+.prev-slide-button {
+  position: absolute;
+  left: 50%;
+  max-width: 200px;
+  height: 46px;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\0000357}}
+  .next-slide-button svg,
+  .prev-slide-button svg {
+    width: 24px;
+    left: 50%;
+    margin-left: -12px;
+    fill: #9be6fd;
+    opacity: .6;
+    -webkit-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
+    -webkit-filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.5));
+            filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.5)); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\0000366}}
+  .next-slide-button span,
+  .prev-slide-button span {
+    position: relative;
+    width: 100%;
+    height: 26px;
+    display: inline-block;
+    overflow: hidden;
+    color: #9be6fd;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\0000383}}
+.preview-slide {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(0, 30, 48, 0.5);
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\0000395}}
+.prev-slide-button {
+  top: -6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\0000398}}
+  .prev-slide-button svg {
+    top: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\00003102}}
+  .prev-slide-button .preview-slide {
+    margin-top: -40px;
+    padding-top: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\00003110}}
+  .prev-slide-button:hover svg {
+    top: 0;
+    opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\00003116}}
+  .prev-slide-button:hover .preview-slide {
+    margin-top: 6px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\00003122}}
+.next-slide-button {
+  bottom: -6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\00003125}}
+  .next-slide-button svg {
+    bottom: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\00003129}}
+  .next-slide-button .preview-slide {
+    margin-top: 46px;
+    padding-top: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\00003135}}
+  .next-slide-button:hover svg {
+    bottom: 0;
+    opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\00003141}}
+  .next-slide-button:hover .preview-slide {
+    margin-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\00003147}}
+.project-info {
+  position: absolute;
+  bottom: 9px;
+  left: -16px;
+  width: 458px;
+  max-width: 42%;
+  padding: 24px;
+  font-family: "Source Sans Pro";
+  background-color: rgba(0, 30, 48, 0.94); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\00003160}}
+  .project-info * {
+    position: relative;
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\00003166}}
+  .project-info h3 {
+    margin-bottom: 10px;
+    color: #3dd5fc;
+    font-size: 11px;
+    font-weight: 600 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\00003174}}
+  .project-info h2 {
+    clear: both;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\00003183}}
+  .project-info p {
+    clear: both;
+    margin-bottom: 22px;
+    color: #d9f5fe;
+    font-size: 14px;
+    line-height: 1.6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_project\.scss}line{font-family:\00003192}}
+  .project-info a {
+    margin-right: 18px;
+    background-color: #00283f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_projects-nav\.scss}line{font-family:\000035}}
+.projects-nav .nav-item {
+  position: relative;
+  float: right;
+  width: 16px;
+  height: 36px;
+  margin-bottom: 8px;
+  background-size: 0 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_projects-nav\.scss}line{font-family:\0000320}}
+  .projects-nav .nav-item .inner {
+    float: right;
+    max-width: 4px;
+    height: 36px;
+    margin-right: 6px;
+    overflow: hidden;
+    background-color: rgba(0, 30, 48, 0.6);
+    border-right: 4px solid #006a85;
+    border-radius: 1px;
+    -webkit-transition: 0.3s ease-out;
+    transition: 0.3s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_projects-nav\.scss}line{font-family:\0000333}}
+    .projects-nav .nav-item .inner span {
+      float: right;
+      padding: 0 10px;
+      color: #9be6fd;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 34px;
+      white-space: nowrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_projects-nav\.scss}line{font-family:\0000345}}
+  .projects-nav .nav-item.active .inner {
+    color: #000e1a;
+    border: 0;
+    background-color: #9be6fd !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_projects-nav\.scss}line{font-family:\0000352}}
+  .projects-nav .nav-item:last-of-type .inner {
+    border-color: #003948;
+    background-color: rgba(0, 57, 72, 0.6); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_projects-nav\.scss}line{font-family:\0000360}}
+  .projects-nav .nav-item:hover .inner {
+    max-width: 220px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_projects-nav\.scss}line{font-family:\0000364}}
+  .projects-nav .nav-item:hover.active .inner {
+    max-width: 4px;
+    border: 0;
+    background-color: #9be6fd !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_projects-nav\.scss}line{font-family:\0000373}}
+.projects-nav:hover .nav-item {
+  width: 120px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_social-links\.scss}line{font-family:\000032}}
+.social-links li {
+  float: left;
+  margin-right: 26px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_social-links\.scss}line{font-family:\000036}}
+  .social-links li:last-of-type {
+    margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_social-links\.scss}line{font-family:\0000310}}
+  .social-links li a {
+    position: relative;
+    float: left;
+    width: 64px;
+    height: 64px;
+    font-size: 0;
+    background-color: rgba(0, 14, 26, 0.6);
+    border-radius: 50%;
+    border: solid 2px #9be6fd;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_social-links\.scss}line{font-family:\0000325}}
+    .social-links li a:hover {
+      background-color: #6fe0fd;
+      border-color: #6fe0fd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_social-links\.scss}line{font-family:\0000329}}
+      .social-links li a:hover svg {
+        fill: #000e1a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_social-links\.scss}line{font-family:\0000334}}
+    .social-links li a svg {
+      position: absolute;
+      width: 36px;
+      left: 50%;
+      margin-left: -18px;
+      height: 36px;
+      top: 50%;
+      margin-top: -18px;
+      fill: #9be6fd;
+      -webkit-transition: .2s ease-out;
+      transition: .2s ease-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_menu\.scss}line{font-family:\000031}}
+#menu {
+  position: fixed;
+  top: 21px;
+  right: 22px;
+  z-index: 1;
+  height: 50px;
+  width: 52px;
+  overflow: hidden;
+  background-color: rgba(0, 14, 26, 0.8);
+  border-radius: 3px;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_menu\.scss}line{font-family:\0000316}}
+  #menu .nav-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 50px;
+    width: 52px;
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_menu\.scss}line{font-family:\0000329}}
+    #menu .nav-toggle .hamburger {
+      position: absolute;
+      top: 24px;
+      left: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_menu\.scss}line{font-family:\0000335}}
+      #menu .nav-toggle .hamburger, #menu .nav-toggle .hamburger::after, #menu .nav-toggle .hamburger::before {
+        position: absolute;
+        width: 24px;
+        height: 2px;
+        background-color: #3dd5fc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_menu\.scss}line{font-family:\0000345}}
+      #menu .nav-toggle .hamburger::after {
+        content: '';
+        top: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_menu\.scss}line{font-family:\0000351}}
+      #menu .nav-toggle .hamburger::before {
+        content: '';
+        bottom: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_menu\.scss}line{font-family:\0000361}}
+  #menu:hover {
+    background-color: #001e30; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_menu\.scss}line{font-family:\0000367}}
+  #menu.active {
+    width: 216px;
+    height: 290px;
+    background-color: rgba(0, 30, 48, 0.95); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_menu\.scss}line{font-family:\0000374}}
+  #menu ul {
+    position: relative;
+    float: right;
+    width: 216px;
+    margin-top: 17px;
+    margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_menu\.scss}line{font-family:\0000383}}
+    #menu ul a {
+      height: 50px;
+      display: block;
+      padding-left: 36px;
+      color: #9be6fd;
+      font-size: 24px;
+      line-height: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_menu\.scss}line{font-family:\0000392}}
+      #menu ul a span {
+        border-bottom: solid 2px transparent;
+        -webkit-transition: .2s ease-out;
+        transition: .2s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_menu\.scss}line{font-family:\0000396}}
+        #menu ul a span.active {
+          border-color: #3dd5fc !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_menu\.scss}line{font-family:\00003101}}
+      #menu ul a:hover span {
+        border-color: #0085a3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_menu\.scss}line{font-family:\00003108}}
+  #menu .lang-switcher {
+    position: relative;
+    float: right;
+    margin-right: 109px;
+    margin-bottom: 34px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\000031}}
+.contact-form-container {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  bottom: -10px;
+  left: -10px;
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\0000311}}
+.contact-form {
+  position: absolute;
+  overflow: hidden;
+  background-color: #001e30;
+  border-radius: 2px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\0000321}}
+.hide-bg {
+  opacity: .2 !important;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  pointer-events: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\0000327}}
+.close-form-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+  background: url("images/ic_close_white_24px.svg");
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\0000340}}
+.fields-container {
+  width: 100%;
+  margin-top: 34px;
+  margin-bottom: 22px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\0000346}}
+.field-wrapper {
+  position: relative;
+  width: 100%;
+  float: right;
+  padding: 0 24px;
+  margin-top: 16px;
+  margin-bottom: 4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\0000356}}
+.validation-error {
+  display: none;
+  margin-top: 6px;
+  color: #f44;
+  font-size: 12px;
+  font-weight: 600; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\0000364}}
+  .validation-error.invalid {
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\0000369}}
+.text-field,
+.multiline-field {
+  width: 100%;
+  height: 40px;
+  margin-top: 13px;
+  padding-left: 2px;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  line-height: 36px;
+  color: #fff !important;
+  background-color: transparent !important;
+  border-bottom: 1px solid #006a85; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\0000384}}
+  .text-field.invalid,
+  .multiline-field.invalid {
+    border-color: #f44; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\0000388}}
+  .text-field:focus ~ .focus-bar,
+  .multiline-field:focus ~ .focus-bar {
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\0000392}}
+  .text-field:focus ~ label, .text-field:valid ~ label,
+  .multiline-field:focus ~ label,
+  .multiline-field:valid ~ label {
+    top: 2px;
+    left: 24px;
+    font-size: 11px;
+    color: #3dd5fc;
+    opacity: 0.8;
+    pointer-events: all; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\00003105}}
+  .text-field:focus ~ label,
+  .multiline-field:focus ~ label {
+    color: #3dd5fc !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\00003109}}
+  .text-field.invalid:valid ~ label,
+  .multiline-field.invalid:valid ~ label {
+    color: #f44; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\00003114}}
+.multiline-field {
+  display: block;
+  height: 34px;
+  max-width: 100%;
+  max-height: 80px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  margin-top: 21px;
+  line-height: 1.5;
+  font-size: 16px;
+  resize: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\00003128}}
+  .multiline-field::-webkit-scrollbar-track {
+    background-color: rgba(0, 14, 26, 0.3); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\00003133}}
+.focus-bar {
+  position: relative;
+  float: left;
+  margin-top: -2px;
+  height: 2px;
+  width: 0;
+  background-color: #3dd5fc;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\00003145}}
+.floating-label {
+  position: absolute;
+  top: 22px;
+  left: 26px;
+  font-size: 18px;
+  color: rgba(155, 230, 253, 0.6);
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  pointer-events: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\00003158}}
+.confirm-msg {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_contact-form\.scss}line{font-family:\00003162}}
+.send-form-btn {
+  margin-top: 34px;
+  margin-right: 22px;
+  margin-bottom: 22px;
+  float: right;
+  background-color: rgba(24, 103, 130, 0.5); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_scroll-bar\.scss}line{font-family:\000031}}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_scroll-bar\.scss}line{font-family:\000036}}
+::-webkit-scrollbar-track {
+  background-color: #000e1a; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_scroll-bar\.scss}line{font-family:\0000310}}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(61, 213, 252, 0.3); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_scroll-bar\.scss}line{font-family:\0000313}}
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(61, 213, 252, 0.6); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Files\/Desenvolvimento\/github\/portfolio\/style\/components\/_scroll-bar\.scss}line{font-family:\0000317}}
+  ::-webkit-scrollbar-thumb:active {
+    background-color: rgba(61, 213, 252, 0.9); }
+
+/*# sourceMappingURL=style.css.map */
